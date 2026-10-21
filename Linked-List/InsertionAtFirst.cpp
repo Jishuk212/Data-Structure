@@ -25,5 +25,21 @@ int main()
         temp->link = last;
         temp = temp->link;
     }
+    cout << "Enter element to be insert at the begning of the lenked list : ";
+    last = new node;
+    cin >> last->data;
+    last->link = first;
+    first = last;
+    cout << "Traverse each and every element : ";
+    temp = first;
+    while (temp != NULL)
+    {
+        cout << temp->data;
+        if (temp->link != nullptr)
+        {
+            cout << "->";
+        }
+        temp = temp->link;
+    }
     return 0;
 }
