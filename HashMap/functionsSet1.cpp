@@ -10,6 +10,6 @@ int main()
         m[s[i]]++;
     }
     m.insert({'m', 5});
-    cout << m.at('o');
+    cout << m.at('l');
     return 0;
 }
