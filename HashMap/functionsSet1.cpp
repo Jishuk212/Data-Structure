@@ -9,6 +9,7 @@ int main()
     {
         m[s[i]]++;
     }
-    cout << m.at('j');
+    m.insert({'m', 5});
+    cout << m.at('m');
     return 0;
 }
