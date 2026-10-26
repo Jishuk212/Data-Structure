@@ -9,6 +9,6 @@ int main()
     {
         m[s[i]]++;
     }
-    cout << m['i'];
+    cout << m.at('j');
     return 0;
 }
