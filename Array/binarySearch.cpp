@@ -24,7 +24,7 @@ int main()
 {
     BigOLogn obj = BigOLogn();
 
-    int arr[] = {2, 3, 5, 8, 9, 12, 47};
+    int arr[] = {2, 3, 5, 8, 9, 12, 47, 52};
     int target = 47;
     int size = (sizeof(arr) / sizeof(arr[0]));
     cout << obj.binarySearch(arr, size, target);
