@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     unordered_map<char, int> m;
-    string s = "Jishusingh";
+    string s = "JishuSinghJii";
     for (int i = 0; i < s.length(); i++)
     {
         m[s[i]]++;
