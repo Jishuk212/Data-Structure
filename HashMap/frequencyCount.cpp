@@ -6,12 +6,12 @@ int main()
 {
     int arr[] = {1, 5, 4, 2, 3, 6, 8, 5, 1, 2, 4, 5, 9, 6, 3, 2, 5, 4, 2, 8};
     int n = sizeof(arr) / sizeof(arr[0]);
-    unordered_map<int, int> mp;
+    unordered_map<int, int> m;
     for (int i = 0; i < n; i++)
     {
-        mp[arr[i]]++;
+        m[arr[i]]++;
     }
-    for (auto it : mp)
+    for (auto it : m)
     {
         cout << it.first << " : " << it.second << endl;
     }
