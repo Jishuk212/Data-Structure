@@ -9,6 +9,7 @@ int main()
     {
         while (left >= right)
         {
+            if()
         }
     }
     return 0;
