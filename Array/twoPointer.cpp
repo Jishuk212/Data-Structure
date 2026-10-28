@@ -11,6 +11,7 @@ int main()
         {
             if(arr[left]+arr[right] == target){
                 cout << "[" << left << " , " << right << "]";
+                break;
             }
         }
     }
