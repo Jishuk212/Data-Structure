@@ -9,7 +9,7 @@ int main()
     {
         while (left >= right)
         {
-            if()
+            if(arr[left]+arr[right])
         }
     }
     return 0;
