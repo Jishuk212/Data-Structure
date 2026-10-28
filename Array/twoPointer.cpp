@@ -10,7 +10,7 @@ int main()
         while (left >= right)
         {
             if(arr[left]+arr[right] == target){
-                cout << "[" << left;
+                cout << "[" << left << " , ";
             }
         }
     }
