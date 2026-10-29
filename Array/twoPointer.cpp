@@ -9,10 +9,12 @@ int main()
     {
         while (left >= right)
         {
-            if(arr[left]+arr[right] == target){
+            if (arr[left] + arr[right] == target)
+            {
                 cout << "[" << left << " , " << right << "]";
                 break;
             }
+            right--;
         }
     }
     return 0;
