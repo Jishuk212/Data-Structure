@@ -7,7 +7,7 @@ int main()
     int right = sizeof(arr) / sizeof(arr[0]);
     for (left; left < sizeof(arr) / sizeof(arr[0]); left++)
     {
-        while (left <= right)
+        while (left < right)
         {
             if (arr[left] + arr[right] == target)
             {
