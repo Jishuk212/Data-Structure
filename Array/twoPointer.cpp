@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int arr[] = {4, 5, 9, 6, 4, 7, 3, 13, 14, 15};
-    int left = 0, target = 20;
+    int left = 0, target = 50;
     int right = sizeof(arr) / sizeof(arr[0]);
     for (left; left < sizeof(arr) / sizeof(arr[0]); left++)
     {
