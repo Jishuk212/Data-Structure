@@ -11,7 +11,7 @@ int countNoOfDigits(int n)
 }
 int main()
 {
-    int n = 2;
+    int n = 202;
     cout << countNoOfDigits(n);
     return 0;
 }
