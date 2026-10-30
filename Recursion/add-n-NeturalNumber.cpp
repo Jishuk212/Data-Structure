@@ -10,7 +10,7 @@ int addNaturalNumber(int a)
 }
 int main()
 {
-    int a = 50;
+    int a = 40;
     cout << addNaturalNumber(a);
     return 0;
 }
