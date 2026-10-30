@@ -23,7 +23,7 @@ int binarySearch(int arr[], int target, int left, int right)
 int main()
 {
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 19};
-    int target = 5;
+    int target = 15;
     int size = sizeof(arr) / sizeof(arr[0]);
     cout << binarySearch(arr, target, 0, (size - 1));
     return 0;
