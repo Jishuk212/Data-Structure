@@ -19,7 +19,7 @@ int armstrong(int number, int digit)
 }
 int main()
 {
-    int n = 2222;
+    int n = 22222;
     int digits = countDigit(n);
     cout << armstrong(n, digits);
 
