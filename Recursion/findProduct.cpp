@@ -14,7 +14,7 @@ int product(int a, int b)
 }
 int main()
 {
-    int n = 25;
+    int n = 23;
     int m = 5;
     cout << product(n, m);
     return 0;
