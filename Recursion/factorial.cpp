@@ -10,7 +10,7 @@ int factorial(int a)
 }
 int main()
 {
-    int val = 5;
+    int val = 15;
     cout << "Hello Developer\n";
     cout << factorial(val);
     return 0;
