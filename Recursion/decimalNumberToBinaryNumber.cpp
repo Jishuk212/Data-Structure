@@ -15,7 +15,7 @@ int decimalNumberToBinaryNumber(int n)
 }
 int main()
 {
-    int n = 25;
+    int n = 205;
     cout << decimalNumberToBinaryNumber(n);
     return 0;
 }
