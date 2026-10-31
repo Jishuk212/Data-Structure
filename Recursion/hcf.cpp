@@ -14,7 +14,7 @@ int hcf(int a, int b)
 }
 int main()
 {
-    int a = 90;
+    int a = 93;
     int b = 35;
     cout << "HCF of " << a << " and " << b << " is : " << hcf(a, b);
     return 0;
