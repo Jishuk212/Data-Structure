@@ -10,7 +10,7 @@ string palindrom(string s, int length)
 }
 int main()
 {
-    string s = "thiht";
+    string s = "thiliht";
     if (s == palindrom(s, s.length()))
     {
         cout << "This is Palindrom";
