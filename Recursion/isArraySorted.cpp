@@ -14,7 +14,7 @@ bool isArraySorted(int arr[], int length)
 }
 int main()
 {
-    int arr[] = {5, 6, 6, 7, 9};
+    int arr[] = {5, 6, 6, 7, 8, 9};
     int length = sizeof(arr) / sizeof(arr[0]);
     cout << isArraySorted(arr, length);
     return 0;
