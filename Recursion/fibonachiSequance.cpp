@@ -10,7 +10,7 @@ int fibonachiSequence(int n)
 }
 int main()
 {
-    int n = 40;
+    int n = 45;
     cout << fibonachiSequence(n) << " ";
     return 0;
 }
