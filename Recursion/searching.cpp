@@ -16,7 +16,7 @@ void search(int arr[], int target, int size)
 }
 int main()
 {
-    int arr[] = {5, 4, 6, 2, 3, 8, 9, 7, 1};
+    int arr[] = {5, 4, 6, 2, 3, 8, 91, 7, 1};
     int target = 5;
     int size = sizeof(arr) / sizeof(arr[0]);
     search(arr, target, size);
