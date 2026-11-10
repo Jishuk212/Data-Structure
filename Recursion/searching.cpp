@@ -18,7 +18,7 @@ int main()
 
 {
     int arr[] = {52, 40, 60, 20, 102, 54, 20, 570, 180};
-    int target = 200;
+    int target = 20;
     int size = sizeof(arr) / sizeof(arr[0]);
     search(arr, target, size);
     return 0;
