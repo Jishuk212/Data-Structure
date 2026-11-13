@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int arr[] = {40, 50, 95, 76, 24, 70, 30, 13, 14, 15, 10};
+    int arr[] = {40, 50, 95, 76, 24, 70, 30, 13, 14, 15, 15};
     int left = 0, target = 50;
     int right = sizeof(arr) / sizeof(arr[0]);
     for (left; left < sizeof(arr) / sizeof(arr[0]); left++)
