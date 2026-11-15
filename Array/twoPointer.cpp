@@ -1,4 +1,4 @@
-
+// Two pointer is used when problem afford minimum time complexity
 
 #include <iostream>
 using namespace std;
