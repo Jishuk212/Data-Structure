@@ -1,3 +1,5 @@
+// This is two pointer which is used for longest structured stratcure 
+
 #include <iostream>
 using namespace std;
 int main()
