@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    int arr[] = {49, 50, 70, 17, 81, 77, 14, 14, 45, 25};
+    int arr[] = {49, 50, 80, 17, 81, 77, 14, 14, 45, 25};
     int left = 0, target = 50;
     int right = sizeof(arr) / sizeof(arr[0]);
     cout << "Hello World";
