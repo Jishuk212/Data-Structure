@@ -12,7 +12,7 @@ int main()
             }
             else
             {
-                cout << " 2 ";
+                cout << " 4 ";
             }
         }
         cout << endl;
