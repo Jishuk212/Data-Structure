@@ -8,7 +8,7 @@ int main()
         {
             if (i % 2 == 0)
             {
-                cout << " 1 ";
+                cout << " 4 ";
             }
             else
             {
