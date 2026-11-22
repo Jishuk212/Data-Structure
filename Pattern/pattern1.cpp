@@ -12,6 +12,6 @@ void pattern1()
 }
 int main()
 {
-    cout << "Hello World";
+    pattern1();
     return 0;
 }
