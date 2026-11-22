@@ -8,6 +8,7 @@ void pattern1()
         {
             cout << "* ";
         }
+        cout << endl;
     }
 }
 int main()
