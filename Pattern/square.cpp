@@ -8,11 +8,11 @@ int main()
         {
             if (i % 2 == 0)
             {
-                cout << " 4 ";
+                cout << " * ";
             }
             else
             {
-                cout << " 4 ";
+                cout << " * ";
             }
         }
         cout << endl;
