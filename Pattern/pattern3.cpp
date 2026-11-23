@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-void pattern1()
 
 int main()
 {
