@@ -11,9 +11,3 @@ void pattern4(int n)
         cout << endl;
     }
 }
-int main()
-{
-    int n = 5;
-    pattern4(n);
-    return 0;
-}
